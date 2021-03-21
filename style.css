@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(226, 235, 238);
+}
+
+.ref {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+#ref-left {
+  /* background-color: red; */
+  left: 0%;
+}
+
+#ref-right {
+  /* background-color: green; */
+  left: 100%;
+}
+
+.marble {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 50px;
+  border-radius: 50%;
+}
+
+#green {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(203, 230, 203),
+    rgb(1, 61, 1)
+  );
+  box-shadow: 15px 25px 15px 5px rgba(107, 117, 106, 0.6);
+  left: 20%;
+}
+#orange {
+  background: 
+  /* radial-gradient(
+      ellipse at center,
+      rgba(30, 87, 153, 0.5) 5%,
+      rgba(41, 137, 216, 0.5) 20%,
+      rgba(32, 124, 202, 0.5) 80%,
+      rgba(125, 185, 232, 0.5) 100%
+    ), */ linear-gradient(
+    to bottom right,
+    rgba(230, 203, 226, 0.7),
+    rgb(145, 2, 114)
+  );
+  /* url("./images/marble_cats-eye-removebg-preview.png"); */
+
+  background-size: contain;
+  box-shadow: 15px 25px 15px 5px rgba(116, 111, 100, 0.6);
+  left: 60%;
+}
+/* #orange {
+  background: linear-gradient(
+      to bottom right,
+      transparent,
+      rgba(64, 66, 66, 0.3)
+    );
+    /* url("./images/marble_cats-eye-removebg-preview.png"); */
+
+/* background-size: contain;
+  box-shadow: 15px 25px 15px 5px rgba(116, 111, 100, 0.6);
+  left: 60%;
+} */
+footer {
+  width: 100%;
+  height: 50px;
+  background-image: linear-gradient(
+    /* to bottom right, */ rgb(5, 12, 71),
+    rgb(239, 239, 247)
+  );
+  position: absolute;
+  bottom: 0;
+}
